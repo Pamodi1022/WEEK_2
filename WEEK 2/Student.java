@@ -22,7 +22,7 @@ public class Student {
         while (true) {
             System.out.print("Enter name: ");
             this.name = scanner.nextLine();
-            if (this.name.matches("[a-zA-Z]")) {
+            if (this.name.matches("[a-zA-Z]+")) {
                 break;
             } else {
                 System.out.println("Invalid input! Please enter a valid name (letters and spaces only).");
